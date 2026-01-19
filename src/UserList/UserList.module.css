@@ -1,0 +1,77 @@
+/* UserList.module.css */
+.listContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.filterInfo {
+    color: #667;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.emptyState {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.userCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+}
+
+.userCard:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.index {
+    color: #888;
+    font-size: 0.9em;
+    margin: 0 0 8px 0;
+}
+
+.name {
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.activeIcon {
+    margin-left: 8px;
+    font-size: 1.2em;
+}
+
+.age {
+    color: #333;
+    margin: 0;
+}
+
+.ageHighlight {
+    color: darkred;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.stats {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.stats p {
+    margin: 0;
+}
