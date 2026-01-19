@@ -1,0 +1,39 @@
+/* Welcome.module.css */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 24px;
+    border: 2px solid #4a90e2;
+    border-radius: 12px;
+    background-color: #f8f9fa;
+}
+
+.title {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 8px;
+}
+
+.date {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.visits {
+    background-color: #4a90e2;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.message {
+    background-color: #e8f4fd;
+    border-left: 4px solid #4a90e2;
+    padding: 12px;
+    margin-top: 16px;
+    border-radius: 0 8px 8px 0;
+}
