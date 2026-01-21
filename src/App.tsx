@@ -14,7 +14,7 @@ function App() {
     return (
         <div className="app-container">
             <Welcome userName="Viktor" message="Как тебе React?"/>
-            <UserList users={users} showActiveOnly={true}/>
+            <UserList users={users}/>
         </div>
     )
 }
